@@ -1,0 +1,26 @@
+
+.button-custom {
+    -fx-background-color: #403d39;
+    -fx-text-fill: white; /* Цвет текста */
+    -fx-font-size: 18px; /* Размер шрифта */
+    -fx-font-family: Arial; /* Шрифт */
+    -fx-fit-width:100%;
+    /* Другие свойства стиля, если нужно */
+}
+
+.button-custom:hover {
+    -fx-background-color: #252422; /* Новый цвет при наведении */
+}
+
+.button-custom:pressed {
+    -fx-background-color: #eb5e28; /* Новый цвет при нажатии */
+}
+.vbox-menu{
+-fx-fit-width:100%;
+}
+
+.image-view {
+    -fx-preserve-ratio: true;
+    -fx-fit-height: 300; /* Установите желаемую высоту */
+    /* -fx-fit-width: 200;  Опционально: установите ширину, если необходимо */
+}

@@ -1,0 +1,15 @@
+.button-custom {
+    -fx-background-color: #403d39;
+    -fx-text-fill: white; /* Цвет текста */
+    -fx-font-size: 18px; /* Размер шрифта */
+    -fx-font-family: Arial; /* Шрифт */
+    /* Другие свойства стиля, если нужно */
+}
+
+.button-custom:hover {
+    -fx-background-color: #252422; /* Новый цвет при наведении */
+}
+
+.button-custom:pressed {
+    -fx-background-color: #eb5e28; /* Новый цвет при нажатии */
+}
